@@ -1,0 +1,51 @@
+#FUNCTION EXAMPLE1
+
+def RealEstateProperty(propertyid, propertytype, address, price, squarefeet, city):
+    print(f'propertyid = {propertyid}')
+    print(f'propertytype = {propertytype}')
+    print(f'address = {address}')
+    print(f'price = {price}')
+    print(f'squarefeet = {squarefeet}')
+    print(f'city = {city}')
+    return'----Property_Info'
+print('---')
+print('---')
+customer_1 = RealEstateProperty(101,'Residential','add1',120000,15000,'Nagpur')
+print('---')
+print('---')
+customer_2 = RealEstateProperty(102,'Residential','add2',150000,200000,'pune')
+print('---')
+print('---')
+customer_3 = RealEstateProperty(103,'Banglow','add3',2000000,4314000,'mumbai')
+print('---')
+print('---')
+
+#FUNCTION EXAMPLE2
+
+def Bank_account_info(account_number, account_holder, account_type, balance, branch, contact):
+    print(f'account_number = {account_number}')
+    print(f'account_holder = {account_holder}')
+    print(f'account_type = {account_type}')
+    print(f'balance = {balance}')
+    print(f'branch = {branch}')
+    print(f'contact = {contact}')
+    return'----Account_Info'
+print('---')
+print('---')
+customer_1 = Bank_account_info(6536156571,'jonney','saving',120000,'itwari',889789798)
+print('---')
+print('---')
+customer_2 = Bank_account_info(234786234763,'raj','current',150000,'nandanvan',678789889)
+print('---')
+print('---')
+customer_3 = Bank_account_info(78346876348,'pooja','current',2000000,'mahal',876677687)
+print('---')
+print('---')
+
+
+
+
+
+
+
+   
